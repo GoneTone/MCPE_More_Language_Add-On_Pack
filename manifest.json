@@ -1,0 +1,17 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "Applicable to MCPE More Language Add-On Pack.",
+      "name" : "More Language Add Pack",
+      "uuid" : "2c9dd86e-18a7-4d59-ab2f-043cc12be0b0",
+      "version" : [ 0, 0, 1 ]
+   },
+   "modules" : [
+      {
+         "description" : "Applicable to MCPE More Language Add-On Pack.",
+         "type" : "resources",
+         "uuid" : "899dc7df-1ccc-4642-85b6-fbe98d347e7c",
+         "version" : [ 0, 0, 1 ]
+      }
+   ]
+}
