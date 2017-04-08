@@ -1,15 +1,4 @@
-﻿##
-## 翻譯包資訊
-## 此翻譯包為 味噌湯(Wei-Jin Tzeng) 與 旋風之音(GoneTone) 共同製作!
-## 反饋網站 : 
-## 使用或修改此翻譯包時 請勿刪除上面的註釋字串
-## 若使用修改時 請在下方加入您的姓名
-## 
-## 由 {修改人姓名} 修改並發布於網路
-##
-
-
-## 註釋可以添加在有效行的任何地方，從"##"開始，
+﻿## 註釋可以添加在有效行的任何地方，從"##"開始，
 ## 
 ## 注意，尾隨空格不會被修剪。 如果你想要在字串的結尾和a的開始之間的房間
 ## 註釋在同一行，使用TAB。
@@ -238,6 +227,38 @@ craftingScreen.tab.miscellaneous=雜項類
 credits.skip=越過
 
 cauldronScreen.header=鍋釜
+
+commandBlockScreen.blockType=方塊類型：
+commandBlockScreen.blockType.impulse=脈衝
+commandBlockScreen.blockType.chain=連鎖
+commandBlockScreen.blockType.repeat=重複
+commandBlockScreen.condition=條件：
+commandBlockScreen.condition.conditional=有條件
+commandBlockScreen.condition.unconditional=無條件
+commandBlockScreen.redstone=啟動：
+commandBlockScreen.redstone.needs_redstone=需要紅石
+commandBlockScreen.redstone.always_on=永遠開啟
+commandBlockScreen.displayOutputMode=O
+commandBlockScreen.hideOutputMode=X
+commandBlockScreen.hoverNote=暫留註解
+commandBlockScreen.title=指令方塊
+
+seargeSays.searge=Searge 說：%s
+seargeSays.searge1=人生只有一次
+seargeSays.searge2=/achievement take achievement.understandCommands @p
+seargeSays.searge3=到 twitter 尋求協助
+seargeSays.searge4=/deop @p
+seargeSays.searge5=計分板已刪除，指令已封鎖
+seargeSays.searge6=如需協助請洽尋服務台
+seargeSays.searge7=/testfornoob @p
+seargeSays.searge8=/trigger warning
+seargeSays.searge9=我的老天，上面全是統計資料
+seargeSays.searge10=/kill @p[name=!Searge]
+seargeSays.searge11=您有沒有試過先關掉然後再開啟？
+seargeSays.searge12=抱歉，今天不提供協助
+
+commandBlock.shortName=@
+commandBlock.genericName=指令方塊
 
 commands.ability.noability=沒有名為「%s」的技能
 commands.ability.granted=已授與你「%s」技能
@@ -1163,6 +1184,7 @@ enchantment.digging=效率
 enchantment.durability=耐久
 enchantment.fire=燃燒
 enchantment.fishingSpeed=魚餌
+enchantment.frostwalker=冰霜行者
 enchantment.knockback=擊退
 enchantment.level.1=I
 enchantment.level.10=X
@@ -1177,6 +1199,7 @@ enchantment.level.9=IX
 enchantment.lootBonus=掠奪
 enchantment.lootBonusDigger=幸運
 enchantment.lootBonusFishing=海洋的祝福
+enchantment.mending=經驗修補
 enchantment.oxygen=水中呼吸
 enchantment.protect.all=保護
 enchantment.protect.explosion=防爆
@@ -1998,6 +2021,22 @@ item.banner.triangles_top.yellow=上側黃色鋸齒
 item.banner.white.name=白色旗幟
 item.banner.yellow.name=黃色旗幟
 item.bed.name=床
+item.bed.black.name=黑色床
+item.bed.red.name=紅色床
+item.bed.green.name=綠色床
+item.bed.brown.name=棕色床
+item.bed.blue.name=藍色床
+item.bed.purple.name=紫色床
+item.bed.cyan.name=青色床
+item.bed.silver.name=淺灰色床
+item.bed.gray.name=灰色床
+item.bed.pink.name=粉紅色床
+item.bed.lime.name=青檸色床
+item.bed.yellow.name=黃色床
+item.bed.lightBlue.name=淺藍色床
+item.bed.magenta.name=洋紅色床
+item.bed.orange.name=橙色床
+item.bed.white.name=白色床
 item.steak.name=牛排
 item.beef.name=生牛肉
 item.beetroot.name=甜菜根
@@ -2174,51 +2213,51 @@ item.minecartCommandBlock.name=指令方塊礦車
 item.minecartFurnace.name=動力礦車
 item.hopper_minecart.name=漏斗礦車
 item.tnt_minecart.name=TNT礦車
-item.spawn_egg.entity.Bat.name=生成 蝙蝠
-item.spawn_egg.entity.Blaze.name=生成 烈焰使者
-item.spawn_egg.entity.Cat.name=生成 貓
-item.spawn_egg.entity.CaveSpider.name=生成 洞穴蜘蛛
-item.spawn_egg.entity.Chicken.name=生成 雞
-item.spawn_egg.entity.Cow.name=生成 牛
-item.spawn_egg.entity.Creeper.name=生成 苦力怕
-item.spawn_egg.entity.EnderDragon.name=生成 終界龍
-item.spawn_egg.entity.Enderman.name=生成 終界使者
-item.spawn_egg.entity.Endermite.name=生成 終界蟎
-item.spawn_egg.entity.Ghast.name=生成 地獄幽靈
-item.spawn_egg.entity.Giant.name=生成 巨人
-item.spawn_egg.entity.LavaSlime.name=生成 岩漿史萊姆
-item.spawn_egg.entity.MushroomCow.name=生成 哞菇
-item.spawn_egg.entity.Ocelot.name=生成 豹貓
-item.spawn_egg.entity.Pig.name=生成 豬
-item.spawn_egg.entity.PigZombie.name=生成 殭屍豬人
-item.spawn_egg.entity.PolarBear.name=生成 北極熊
-item.spawn_egg.entity.Rabbit.name=生成 兔子
-item.spawn_egg.entity.Sheep.name=生成 綿羊
-item.spawn_egg.entity.Npc.name=生成 NPC
+item.spawn_egg.entity.bat.name=生成 蝙蝠
+item.spawn_egg.entity.blaze.name=生成 烈焰使者
+item.spawn_egg.entity.cat.name=生成 貓
+item.spawn_egg.entity.cave_spider.name=生成 洞穴蜘蛛
+item.spawn_egg.entity.chicken.name=生成 雞
+item.spawn_egg.entity.cow.name=生成 牛
+item.spawn_egg.entity.creeper.name=生成 苦力怕
+item.spawn_egg.entity.ender_dragon.name=生成 終界龍
+item.spawn_egg.entity.enderman.name=生成 終界使者
+item.spawn_egg.entity.endermite.name=生成 終界蟎
+item.spawn_egg.entity.ghast.name=生成 地獄幽靈
+item.spawn_egg.entity.giant.name=生成 巨人
+item.spawn_egg.entity.lava_slime.name=生成 岩漿史萊姆
+item.spawn_egg.entity.mushroom_cow.name=生成 哞菇
+item.spawn_egg.entity.ocelot.name=生成 豹貓
+item.spawn_egg.entity.pig.name=生成 豬
+item.spawn_egg.entity.pigZombie.name=生成 殭屍豬人
+item.spawn_egg.entity.polarBear.name=生成 北極熊
+item.spawn_egg.entity.rabbit.name=生成 兔子
+item.spawn_egg.entity.sheep.name=生成 綿羊
+item.spawn_egg.entity.npc.name=生成 NPC
 item.spawn_egg.entity.unknown.name=生成
-item.spawn_egg.entity.Silverfish.name=生成 蠧魚
-item.spawn_egg.entity.ElderGuardian.name=生成 遠古深海守衛
-item.spawn_egg.entity.Guardian.name=生成 深海守衛
-item.spawn_egg.entity.Shulker.name=生成 界伏蚌
-item.spawn_egg.entity.Skeleton.name=生成 骷髏
-item.spawn_egg.entity.Slime.name=生成 史萊姆
-item.spawn_egg.entity.SnowGolem.name=生成 雪人
-item.spawn_egg.entity.Spider.name=生成 蜘蛛
-item.spawn_egg.entity.Squid.name=生成 魷魚
-item.spawn_egg.entity.Villager.name=生成 村民
-item.spawn_egg.entity.IronGolem.name=生成 鐵魔像
-item.spawn_egg.entity.Witch.name=生成 女巫
-item.spawn_egg.entity.Wolf.name=生成 狼
-item.spawn_egg.entity.Zombie.name=生成 殭屍
-item.spawn_egg.entity.Stray.name=生成 流髑
-item.spawn_egg.entity.Husk.name=生成 屍殼
-item.spawn_egg.entity.Horse.name=生成 馬
-item.spawn_egg.entity.Donkey.name=生成 驢子
-item.spawn_egg.entity.Mule.name=生成 騾子
-item.spawn_egg.entity.SkeletonHorse.name=生成 骷髏馬
-item.spawn_egg.entity.ZombieHorse.name=生成 殭屍馬
-item.spawn_egg.entity.WitherSkeleton.name=生成 凋靈骷髏
-item.spawn_egg.entity.ZombieVillager.name=生成 殭屍村民
+item.spawn_egg.entity.silverfish.name=生成 蠧魚
+item.spawn_egg.entity.elder_guardian.name=生成 遠古深海守衛
+item.spawn_egg.entity.guardian.name=生成 深海守衛
+item.spawn_egg.entity.shulker.name=生成 界伏蚌
+item.spawn_egg.entity.skeleton.name=生成 骷髏
+item.spawn_egg.entity.slime.name=生成 史萊姆
+item.spawn_egg.entity.snow_golem.name=生成 雪人
+item.spawn_egg.entity.spider.name=生成 蜘蛛
+item.spawn_egg.entity.squid.name=生成 魷魚
+item.spawn_egg.entity.villager.name=生成 村民
+item.spawn_egg.entity.iron_golem.name=生成 鐵魔像
+item.spawn_egg.entity.witch.name=生成 女巫
+item.spawn_egg.entity.wolf.name=生成 狼
+item.spawn_egg.entity.zombie.name=生成 殭屍
+item.spawn_egg.entity.stray.name=生成 流髑
+item.spawn_egg.entity.husk.name=生成 屍殼
+item.spawn_egg.entity.horse.name=生成 馬
+item.spawn_egg.entity.donkey.name=生成 驢子
+item.spawn_egg.entity.mule.name=生成 騾子
+item.spawn_egg.entity.skeleton_horse.name=生成 骷髏馬
+item.spawn_egg.entity.zombie_horse.name=生成 殭屍馬
+item.spawn_egg.entity.wither_dkeleton.name=生成 凋靈骷髏
+item.spawn_egg.entity.zombie_villager.name=生成 殭屍村民
 item.spawn_egg.name=生成
 item.mushroom_stew.name=燉蘑菇
 item.muttonCooked.name=熟羊肉
@@ -2305,6 +2344,8 @@ item.writingBook.name=書和羽毛筆
 item.writtenBook.name=完成的書
 item.glowstone_dust.name=螢石粉
 item.shulker_shell.name=界伏殼
+item.totem.name=不死圖騰
+
 itemGroup.brewing=釀造類
 itemGroup.buildingBlocks=建材類
 itemGroup.combat=戰鬥用類
@@ -2687,6 +2728,7 @@ options.gamma.min=昏暗
 options.goToFeedbackWebsite=前往反饋網站
 options.graphics=精美影像
 options.transparentleaves=花俏的樹葉
+options.smooth_lighting=柔和化照明效果
 options.graphics.fancy=高貴
 options.graphics.fast=性能優先
 options.group.audio=聲音
@@ -2829,8 +2871,6 @@ options.touchscreen=觸控模式
 options.uiprofile=UI 設定檔
 options.uiprofile.classic=經典
 options.uiprofile.pocket=Pocket
-options.uiprofile.classic_Win10=經典(預設)
-options.uiprofile.pocket_PE=Pocket(預設)
 options.usetouchpad=分離控制
 options.swapJumpAndSneak=切換跳躍和潛行
 options.usetouchscreen=以輕觸方式遊戲
@@ -2840,7 +2880,12 @@ options.videoTitle=視訊設定
 options.viewBobbing=走路晃動
 options.visible=顯示
 options.vsync=使用 VSync
+options.websocketEncryption=Websockets 加密
+options.websocketEncryptionWarningLabel=只有在主動連接到已知和安全的應用程序時，才禁用此選項。
 options.worldsizelimit=有限的世界大小
+options.filelocation.title=檔案存儲位置
+options.filelocation.external=外部
+options.filelocation.appdata=應用
 
 options.allowCellularData=使用行動數據
 options.cellularDataWarningLabel=以行動網路玩遊戲，可能會導致您的通訊業者額外收費。
@@ -3418,18 +3463,18 @@ skin.StoryMode.Ellegaard=Ellegaard
 skin.StoryMode.EllegaardArmored=Ellegaard 著護甲
 skin.StoryMode.Gabriel=Gabriel
 skin.StoryMode.Ivor=Ivor
-skin.StoryMode.JesseF=Jesse					# 女的 Jesse
-skin.StoryMode.JesseFArmored=Jesse 著護甲	# 女的 Jesse
-skin.StoryMode.JesseFA=Jesse				# 女的 Jesse
-skin.StoryMode.JesseFAArmored=Jesse 著護甲	# 女的 Jesse
-skin.StoryMode.JesseFB=Jesse				# 女的 Jesse
-skin.StoryMode.JesseFBArmored=Jesse 著護甲	# 女的 Jesse
-skin.StoryMode.JesseM=Jesse					# 男的 Jesse
-skin.StoryMode.JesseMArmored=Jesse 著護甲	# 男的 Jesse
-skin.StoryMode.JesseMA=Jesse				# 男的 Jesse
-skin.StoryMode.JesseMAArmored=Jesse 著護甲	# 男的 Jesse
-skin.StoryMode.JesseMB=Jesse				# 男的 Jesse
-skin.StoryMode.JesseMBArmored=Jesse 著護甲	# 男的 Jesse
+skin.StoryMode.JesseF=Jesse				 女的 Jesse
+skin.StoryMode.JesseFArmored=Jesse 著護甲 女的 Jesse
+skin.StoryMode.JesseFA=Jesse			 女的 Jesse
+skin.StoryMode.JesseFAArmored=Jesse 著護甲 女的 Jesse
+skin.StoryMode.JesseFB=Jesse			 女的 Jesse
+skin.StoryMode.JesseFBArmored=Jesse 著護甲 女的 Jesse
+skin.StoryMode.JesseM=Jesse				 男的 Jesse
+skin.StoryMode.JesseMArmored=Jesse 著護甲 男的 Jesse
+skin.StoryMode.JesseMA=Jesse			 男的 Jesse
+skin.StoryMode.JesseMAArmored=Jesse 著護甲 男的 Jesse
+skin.StoryMode.JesseMB=Jesse			 男的 Jesse
+skin.StoryMode.JesseMBArmored=Jesse 著護甲 男的 Jesse
 skin.StoryMode.Lukas=Lukas
 skin.StoryMode.Magnus=Magnus
 skin.StoryMode.MagnusArmored=Magnus 著護甲
@@ -3488,7 +3533,7 @@ skin.Villains.TerrorSpawner=恐懼散播者
 skin.Villains.Patchkin=補丁小子
 
 skinpack.CampfireTales=營火奇譚
-skin.CampfireTales.Bedlam=Bedlam
+skin.CampfireTales.床lam=床lam
 skin.CampfireTales.Crisp=灰燼
 skin.CampfireTales.TheEnderall=滅絕者
 skin.CampfireTales.Farlander=法蘭德
@@ -3825,6 +3870,22 @@ tile.chalkboard.threeByTwo.name=上船
 tile.chest.name=儲物箱
 tile.ender_chest.name=終界箱
 tile.trapped_chest.name=陷阱儲物箱
+tile.shulkerBoxWhite.name=白色界伏箱
+tile.shulkerBoxOrange.name=橙色界伏箱
+tile.shulkerBoxMagenta.name=洋紅色界伏箱
+tile.shulkerBoxLightBlue.name=淺藍色界伏箱
+tile.shulkerBoxYellow.name=黃色界伏箱
+tile.shulkerBoxLime.name=青檸色界伏箱
+tile.shulkerBoxPink.name=粉紅色界伏箱
+tile.shulkerBoxGray.name=灰色界伏箱
+tile.shulkerBoxSilver.name=Silver 界伏箱
+tile.shulkerBoxCyan.name=青色界伏箱
+tile.shulkerBoxPurple.name=紫色界伏箱
+tile.shulkerBoxBlue.name=藍色界伏箱
+tile.shulkerBoxBrown.name=棕色界伏箱
+tile.shulkerBoxGreen.name=綠色界伏箱
+tile.shulkerBoxRed.name=紅色界伏箱
+tile.shulkerBoxBlack.name=黑色界伏箱
 tile.chorus_flower.name=歌萊花
 tile.chorus_plant.name=歌萊枝
 tile.stained_glass.white.name=白色彩繪玻璃
@@ -3899,6 +3960,9 @@ tile.cobblestone_wall.mossy.name=青苔卵石牆
 tile.cobblestone_wall.normal.name=鵝卵石牆
 tile.cocoa.name=可可
 tile.commandBlock.name=指令方塊
+tile.command_block.name=指令方塊
+tile.repeating_command_block.name=重複指令方塊
+tile.chain_command_block.name=連鏈指令方塊
 tile.wheat.name=作物
 tile.darkOakFence.name=黑橡木柵欄
 tile.dark_oak_fence_gate.name=黑橡木柵欄門
@@ -4200,6 +4264,71 @@ tile.carpet.yellow.name=黃色地毯
 tile.crafting_table.name=工作台
 tile.dragon_egg.name=龍蛋
 
+tile.glazedTerracotta.white.name=白色帶釉瓷磚
+tile.glazedTerracotta.orange.name=橙色帶釉瓷磚
+tile.glazedTerracotta.magenta.name=洋紅色帶釉瓷磚
+tile.glazedTerracotta.light_blue.name=淺藍色帶釉瓷磚
+tile.glazedTerracotta.yellow.name=黃色地帶釉瓷磚
+tile.glazedTerracotta.lime.name=青檸色帶釉瓷磚
+tile.glazedTerracotta.pink.name=粉紅色帶釉瓷磚
+tile.glazedTerracotta.gray.name=灰色帶釉瓷磚
+tile.glazedTerracotta.silver.name=淺灰色帶釉瓷磚
+tile.glazedTerracotta.cyan.name=青色帶釉瓷磚
+tile.glazedTerracotta.purple.name=紫色帶釉瓷磚
+tile.glazedTerracotta.blue.name=藍色帶釉瓷磚
+tile.glazedTerracotta.brown.name=棕色帶釉瓷磚
+tile.glazedTerracotta.green.name=綠色帶釉瓷磚
+tile.glazedTerracotta.red.name=紅色帶釉瓷磚
+tile.glazedTerracotta.black.name=黑色帶釉瓷磚
+tile.concrete.black.name=黑色混凝土
+tile.concrete.red.name=紅色混凝土
+tile.concrete.green.name=綠色混凝土
+tile.concrete.brown.name=棕色混凝土
+tile.concrete.blue.name=藍色混凝土
+tile.concrete.purple.name=紫色混凝土
+tile.concrete.cyan.name=青色混凝土
+tile.concrete.silver.name=淺灰色混凝土
+tile.concrete.gray.name=灰色混凝土
+tile.concrete.pink.name=粉紅色混凝土
+tile.concrete.lime.name=青檸色混凝土
+tile.concrete.yellow.name=黃色混凝土
+tile.concrete.lightBlue.name=淺藍色混凝土
+tile.concrete.magenta.name=洋紅色混凝土
+tile.concrete.orange.name=橙色混凝土
+tile.concrete.white.name=白色混凝土
+tile.glazedTerracottaWhite.name=白色帶釉瓷磚
+tile.glazedTerracottaOrange.name=橙色帶釉瓷磚
+tile.glazedTerracottaMagenta.name=洋紅色帶釉瓷磚
+tile.glazedTerracottaLightBlue.name=淺藍色帶釉瓷磚
+tile.glazedTerracottaYellow.name=黃色地帶釉瓷磚
+tile.glazedTerracottaLime.name=青檸色帶釉瓷磚
+tile.glazedTerracottaPink.name=粉紅色帶釉瓷磚
+tile.glazedTerracottaGray.name=灰色帶釉瓷磚
+tile.glazedTerracottaSilver.name=淺灰色帶釉瓷磚
+tile.glazedTerracottaCyan.name=青色帶釉瓷磚
+tile.glazedTerracottaPurple.name=紫色帶釉瓷磚
+tile.glazedTerracottaBlue.name=藍色帶釉瓷磚
+tile.glazedTerracottaBrown.name=棕色帶釉瓷磚
+tile.glazedTerracottaGreen.name=綠色帶釉瓷磚
+tile.glazedTerracottaRed.name=紅色帶釉瓷磚
+tile.glazedTerracottaBlack.name=黑色帶釉瓷磚
+tile.concretePowder.black.name=黑色混凝土粉末
+tile.concretePowder.red.name=紅色混凝土粉末
+tile.concretePowder.green.name=綠色混凝土粉末
+tile.concretePowder.brown.name=棕色混凝土粉末
+tile.concretePowder.blue.name=藍色混凝土粉末
+tile.concretePowder.purple.name=紫色混凝土粉末
+tile.concretePowder.cyan.name=青色混凝土粉末
+tile.concretePowder.silver.name=淺灰色混凝土粉末
+tile.concretePowder.gray.name=灰色混凝土粉末
+tile.concretePowder.pink.name=粉紅色混凝土粉末
+tile.concretePowder.lime.name=青檸色混凝土粉末
+tile.concretePowder.yellow.name=黃色混凝土粉末
+tile.concretePowder.lightBlue.name=淺藍色混凝土粉末
+tile.concretePowder.magenta.name=洋紅色混凝土粉末
+tile.concretePowder.orange.name=橙色混凝土粉末
+tile.concretePowder.white.name=白色混凝土粉末
+
 tipped_arrow.effect.empty=尖銳箭
 tipped_arrow.effect.water=尖銳箭
 tipped_arrow.effect.mundane=尖銳箭
@@ -4408,76 +4537,27 @@ survey.title=反饋：您為何未登入？
 ## 在15. *結束並釋放分支字串
 
 
-## 種子選單字串
-## 依測試後只能使用英文搜尋 因此加入英文名稱
-Epic Cliffs=史詩懸崖 Epic Cliffs
-Ice Spikes Village=冰峰村 Ice Spikes Village
-Mesa Plateau=台地高原 Mesa Plateau
-Stronghold Village=堡壘村 Stronghold Village
-Survival Islands=生存島 Survival Islands
-Taiga Bay=太鼓灣 Taiga Bay
-Coastal Village=沿海村莊 Coastal Village
-Jungle Temple=叢林寺 Jungle Temple
-Mountain View Village=山景村 Mountain View Village
-Ocean Monument Ahead=深海遺跡 Ocean Monument Ahead
-Savannah Island=薩凡納群島 Savannah Island
-Winding River=繞河 Winding River
-
-
-## 翻譯包用
-pack.info=關於
-pack.info.title=關於"繁中翻譯包"
-pack.name=MCPE完整繁中翻譯包
-pack.nameBeta=MCPE完整繁中翻譯包(Beta)
-pack.nameDev=MCPE完整繁中翻譯包(Dev)
-pack.version=版本 : v0.1.3
-pack.Updated.date=更新日期 : %Time
-pack.BeApplicable=適用 : MCPE&Win10 v1.0.3
-pack.by.WJT&GT1=作者 : 味噌湯(Wei-Jin Tzeng)
-pack.by.WJT&GT2=       旋風之音(GoneTone)
-pack.Correction=校正 : #Tau(Middle Tau)
-pack.Update=檢查更新
-pack.Changelog=更新日誌
-pack.feedback=前往反饋網站
-pack.Download_stableE==下載 正式版
-pack.Download_betaE=下載 Beta 版
-pack.Download_DevE=下載 Dev 版
-pack.DevDebug=開發版偵錯
-pack.DevPosition=玩家位置顯示(實驗性)
-pack.Changelog.title=更新日誌 :
-pack.warning=(此翻譯包中包含了開發中的功能)
-pack.warningDev=注意！開發版每1-2天會更新版本，請您記得將版本更新至最高！以獲取最穩定的享用。
-
-
-options.network=網路
-options.network.title=網路設定
-
-options.skin_options=外觀
-options.skin_options.title=外觀選項
-options.skin_options.ShowCape=顯示披風
-options.skin_options.ShowJacket=顯示外套
-options.skin_options.ShowLeftSleeve=顯示左邊袖子
-options.skin_options.ShowRightSleeve=顯示右邊袖子
-options.skin_options.ShowLeftPantsLeg=顯示左邊褲管
-options.skin_options.ShowRightPantsLeg=顯示右邊褲管
-options.skin_options.ShowHat=顯示帽子
-options.skin_options.MainHand=主手
-options.skin_options.MainHand.LeftHand=左手
-options.skin_options.MainHand.RightHand=右手
-
-options.chat_options=聊天
-options.chat_options.title=聊天設定
-options.chat_options.ChatVisibility=訊息可見度
-options.chat_options.Color=顏色
-options.chat_options.WebLink=網頁連結
-options.chat_options.Opacity=不透明：
-options.chat_options.PromptonLink=連結提示
-options.chat_options.Scale=規模：
-options.chat_options.FocusedHeight=聚焦高度：
-options.chat_options.UnfocusedHeight=未聚焦高度：
-options.chat_options.Width=寬度：
-options.chat_options.ReducedDebugInfo=減少偵錯訊息
-
+skinpack.PowerRangers=Power Rangers
+skin.PowerRangers.Alpha5=Alpha 5
+skin.PowerRangers.BlackRangerDragonShield=黑衣 Ranger Dragon Shield
+skin.PowerRangers.BlackRanger=黑衣 Ranger
+skin.PowerRangers.BlueRanger=藍衣 Ranger
+skin.PowerRangers.Bulk=Bulk
+skin.PowerRangers.Goldar=Goldar
+skin.PowerRangers.GreenRanger=綠衣 Ranger
+skin.PowerRangers.LordZedd=Zedd 大帝
+skin.PowerRangers.Megazord=Megazord
+skin.PowerRangers.Ninjor=Ninjor
+skin.PowerRangers.PinkRanger=粉紅 Ranger
+skin.PowerRangers.Putty=Putty
+skin.PowerRangers.RedRangerDragonShield=紅衣 Ranger Dragon Shield
+skin.PowerRangers.RedRanger=紅衣 Ranger
+skin.PowerRangers.RitaRepulsa=Rita Repulsa
+skin.PowerRangers.RitoRevolto=Rito Revolto
+skin.PowerRangers.Scorpina=Scorpina
+skin.PowerRangers.Skull=Skull
+skin.PowerRangers.WhiteRanger=白衣 Ranger
+skin.PowerRangers.YellowRanger=黃衣 Ranger
 
 ## Toolbox 繁體中翻譯字串
 ## By.旋風之音 GoneTone
@@ -4580,6 +4660,7 @@ Minecraft 質地包=奇幻材質包
 城市質地包=城市材質包
 
 
+
 ## 終界結尾
 ## By.Google小姐 XDDDDDDDDDDDD
 §3I see the player you mean.=§3我看見玩家知道你的思維了
@@ -4658,22 +4739,4 @@ Minecraft 質地包=奇幻材質包
 §3And the game was over and the player woke up from the dream. And the player began a new dream. And the player dreamed again, dreamed better. And the player was the universe. And the player was love.=§3遊戲結束，玩家從夢中醒來。 而且玩家開始了一個新的夢想。 玩家再次夢想，夢想更好。 而玩家是宇宙。 而玩家是愛。
 §3You are the player.=§3你是玩家。
 §2Wake up.=§2醒來吧。
-
-Applicable to MCPE More Language Add-On Pack.=適用於MCPE的語言添加包。
-More Language Add Pack=更多語言添加包
- 
- 
-##
-## 翻譯包資訊
-## 此翻譯包為 味噌湯(Wei-Jin Tzeng) 與 旋風之音(GoneTone) 共同製作!
-## 反饋網站 : 
-## 使用或修改此翻譯包時 請勿刪除上面的註釋字串
-## 若使用修改時 請在下方加入您的姓名
-## 
-## 由 {修改人姓名} 修改並發布於網路
-##
-
-
-
-
 
