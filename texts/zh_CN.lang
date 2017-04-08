@@ -2,6 +2,10 @@
 ##
 ## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
 ## comment on the same line, use TABs.
+
+Applicable to MCPE More Language Add-On Pack.=适用于MCPE的“更多语言添加包”。
+More Language Add Pack=更多语言添加包
+
 accessibility.disableTTS=文本转语音已禁用	#
 accessibility.enableTTS=文本转语音已启用	#
 

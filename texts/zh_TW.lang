@@ -3,6 +3,9 @@
 ## 注意，尾隨空格不會被修剪。 如果你想要在字串的結尾和a的開始之間的房間
 ## 註釋在同一行，使用TAB。
 
+Applicable to MCPE More Language Add-On Pack.=適用於MCPE的"更多語言添加包"。
+More Language Add Pack=更多語言添加包
+
 accessibility.disableTTS=文字轉換語音已停用
 accessibility.enableTTS=文字轉換語音已啟用
 
@@ -2828,7 +2831,7 @@ options.particles=粒子
 options.particles.all=全部
 options.particles.decreased=少量
 options.particles.minimal=最少
-options.patchNotes=修補說明
+options.patchNotes=更新日誌
 options.performanceButton=視訊效能設定...
 options.performanceVideoTitle=視訊效能設定
 options.postButton=後處理設定...

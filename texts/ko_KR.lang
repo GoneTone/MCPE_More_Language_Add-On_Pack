@@ -2,6 +2,10 @@
 ##
 ## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
 ## comment on the same line, use TABs.
+
+Applicable to MCPE More Language Add-On Pack.=MCPE "추가 언어 애드온 팩"에 적용됩니다.
+More Language Add Pack=언어 추가 팩
+
 accessibility.disableTTS=텍스트 음성 변환 비활성화됨	#
 accessibility.enableTTS=텍스트 음성 변환 활성화됨	#
 

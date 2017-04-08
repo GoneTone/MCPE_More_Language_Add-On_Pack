@@ -2,6 +2,10 @@
 ##
 ## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
 ## comment on the same line, use TABs.
+
+Applicable to MCPE More Language Add-On Pack.=Applicable to MCPE "More Language Add-On Pack".
+More Language Add Pack=More Language Add Pack
+
 accessibility.disableTTS=Text To Speech disabled
 accessibility.enableTTS=Text To Speech enabled
 

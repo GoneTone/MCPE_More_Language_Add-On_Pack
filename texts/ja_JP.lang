@@ -2,6 +2,10 @@
 ##
 ## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
 ## comment on the same line, use TABs.
+
+Applicable to MCPE More Language Add-On Pack.=MCPE「その他の言語アドオンパック」に適用されます。
+More Language Add Pack=その他の言語パックを追加
+
 accessibility.disableTTS=テキスト読み上げ無効	#
 accessibility.enableTTS=テキスト読み上げ有効	#
 
