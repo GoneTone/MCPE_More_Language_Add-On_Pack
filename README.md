@@ -1,5 +1,5 @@
-# MCPE_More_Language_Add-On_Pack
+# MCPE More Language Add-On Pack
 
-Add more languages for MCPE
+Add more languages for MCPE.
 
 Principal : Wei-Jin Tzeng (as901120@gmail.com)
