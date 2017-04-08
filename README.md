@@ -4,4 +4,4 @@ Add more languages for MCPE.
 
 Welcome to join the ranks!
 
-Principal : Wei-Jin Tzeng (as901120@gmail.com)
+Principal : Wei-Jin Tzeng(as901120@gmail.com)
